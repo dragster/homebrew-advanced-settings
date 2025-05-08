@@ -1,0 +1,11 @@
+cask "advanced-settings" do
+  version "0.8"
+  sha256 :no_check
+
+  url "https://www.dragster.dev/advancedsettings/advanced-settings-#{version}.dmg"
+  name "Advanced Settings"
+  desc "Advanced Settings software"
+  homepage "https://www.dragster.dev/advanced-settings/"
+
+  prefpane "Advanced Settings.prefPane"
+end
